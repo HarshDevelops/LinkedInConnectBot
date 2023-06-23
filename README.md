@@ -30,7 +30,3 @@ These features aim to enhance the functionality and user experience of LinkedInC
 
 ## Contributions
 Contributions are welcome! If you have any ideas for new features or improvements to enhance the user experience, please feel free to develop and contribute them. You can submit your contributions by opening a pull request. I appreciate your valuable input!
-
-
-## License
-This project is licensed under the [MIT License](LICENSE).
