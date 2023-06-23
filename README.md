@@ -14,8 +14,18 @@ LinkedInConnectBot is a Python bot that automates the process of sending connect
 The `mouseclick.py` script is included to address potential issues that may arise due to different screen sizes. By running `mouseclick.py`, you can obtain the coordinates of specific points on your screen. These coordinates can be used to accurately interact with elements on the LinkedIn page, such as buttons and sliders. The script records the coordinates when the right mouse button is clicked.
 
 ## Usage
-1. Run the `main.py` file to initiate the LinkedInConnectBot.
-2. The bot will automate the process of sending connection requests on LinkedIn.
+1. Run `pip install -r requirements.txt` in terminal.
+2. Run the `main.py` file to initiate the LinkedInConnectBot.
+3. The bot will automate the process of sending connection requests on LinkedIn.
+4. If the bot doesn't click the correct "Connect" buttons, follow these steps:
+- Run the `mouseclick.py` script and record the following coordinates in the given order:
+  - Coordinate of the reload button of the browser.
+  - Coordinate of the downward arrow on the message box.
+  - Coordinates of the four "Connect" buttons in the first row.
+  - Coordinate of the slider that allows visibility of the second row of "Connect" buttons.
+  - Coordinates of the four "Connect" buttons in the second row.
+- Replace the corresponding coordinates in the `main.py` file with the recorded values.
+- Please ensure to record the coordinates in the specified order for accurate functionality. 
 
 ## Future Features (Upcoming Enhancements)
 LinkedInConnectBot has the potential to incorporate several features to further improve the user experience. Some possible features include:

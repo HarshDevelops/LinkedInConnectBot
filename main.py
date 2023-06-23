@@ -47,8 +47,6 @@ def send_requests(driver):
         time.sleep(random.randint(1, 10))
 
         print("ROW-1") #The 5 clicks are for the 5 connection requests
-        pag.click(781, 708)
-        time.sleep(random.randint(1, 10))
 
         pag.click(781, 708)
         time.sleep(random.randint(1, 10))
@@ -81,8 +79,8 @@ def send_requests(driver):
 
         time.sleep(random.randint(1, 10))
 
-        pag.click(105, 62)
-        time.sleep(random.randint(1, 10))
+        pag.click(105, 62) #Coordinate of reload button
+        time.sleep(random.randint(1, 10)) 
 
         time.sleep(random.randint(1, 10))
     print("Done !")
