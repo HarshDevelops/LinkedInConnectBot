@@ -1,0 +1,6 @@
+Pillow==9.4.0
+Pillow==9.5.0
+PyAutoGUI==0.9.54
+pynput==1.7.6
+selenium==4.10.0
+webdriver_manager==3.5.2
